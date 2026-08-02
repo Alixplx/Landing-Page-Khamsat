@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Paper (background), Ink (foreground), Indigo (accent) — the only 3 colors on this page */
+    --background: 40 26% 96%;
+    --foreground: 222 12% 10%;
+
+    --card: 40 26% 96%;
+    --card-foreground: 222 12% 10%;
+
+    --primary: 243 75% 59%;
+    --primary-foreground: 40 26% 97%;
+
+    --secondary: 222 12% 10%;
+    --secondary-foreground: 40 26% 97%;
+
+    --muted: 40 12% 90%;
+    --muted-foreground: 222 8% 40%;
+
+    --accent: 243 75% 59%;
+    --accent-foreground: 40 26% 97%;
+
+    --border: 222 10% 85%;
+    --input: 222 10% 85%;
+    --ring: 243 75% 59%;
+
+    --radius: 0.75rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-display;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* subtle grain texture on the paper background, kept quiet */
+.bg-grain {
+  background-image: radial-gradient(hsl(var(--foreground) / 0.045) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
