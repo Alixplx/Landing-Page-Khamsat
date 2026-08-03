@@ -3,16 +3,16 @@ import { Separator } from "@/components/ui/separator";
 
 const columns = [
   {
-    title: "Product",
-    links: ["Features", "Pricing", "Changelog", "Integrations"],
+    title: "المنتج",
+    links: ["المزايا", "التسعير", "سجل التغييرات", "التكاملات"],
   },
   {
-    title: "Company",
-    links: ["About", "Blog", "Careers", "Contact"],
+    title: "الشركة",
+    links: ["من نحن", "المدونة", "الوظائف", "تواصل معنا"],
   },
   {
-    title: "Resources",
-    links: ["Docs", "Guides", "Support", "Status"],
+    title: "المصادر",
+    links: ["الوثائق", "الأدلة", "الدعم", "الحالة"],
   },
 ];
 
@@ -29,7 +29,7 @@ export default function Footer() {
               Flowly
             </a>
             <p className="mt-4 max-w-xs text-sm text-muted-foreground">
-              One calm line of work for teams who'd rather ship than status-update.
+              سطر عمل هادئ واحد للفرق التي تفضل التنفيذ بدلًا من تحديثات الحالة.
             </p>
             <div className="mt-6 flex gap-4">
               <a href="#" aria-label="Twitter" className="text-muted-foreground hover:text-foreground">
@@ -63,13 +63,13 @@ export default function Footer() {
         <Separator className="my-10" />
 
         <div className="flex flex-col items-center justify-between gap-4 text-sm text-muted-foreground md:flex-row">
-          <p>© {new Date().getFullYear()} Flowly, Inc. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Flowly. جميع الحقوق محفوظة.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-foreground">
-              Privacy
+              الخصوصية
             </a>
             <a href="#" className="hover:text-foreground">
-              Terms
+              الشروط
             </a>
           </div>
         </div>

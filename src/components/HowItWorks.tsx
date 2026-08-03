@@ -3,18 +3,18 @@ import { motion } from "framer-motion";
 const steps = [
   {
     number: "01",
-    title: "Connect your tools",
-    description: "Link email, Slack, and forms in a few minutes — no migration required.",
+    title: "اربط أدواتك",
+    description: "اربط البريد الإلكتروني وسلاك والنماذج خلال دقائق — دون أي ترحيل مطلوب.",
   },
   {
     number: "02",
-    title: "Flowly sorts the noise",
-    description: "Incoming requests are triaged, tagged, and routed to the right person.",
+    title: "يفرز Flowly الضوضاء",
+    description: "يتم فرز الطلبات الواردة ووضع العلامات عليها وإرسالها للشخص المناسب.",
   },
   {
     number: "03",
-    title: "Your team just flows",
-    description: "Everyone works from one line of tasks instead of five separate inboxes.",
+    title: "فريقك فقط ينساب",
+    description: "يعمل الجميع من سطر واحد من المهام بدلًا من خمس صناديق واردات منفصلة.",
   },
 ];
 
@@ -30,10 +30,10 @@ export default function HowItWorks() {
           className="mx-auto max-w-xl text-center"
         >
           <h2 className="font-display text-3xl font-semibold tracking-tight md:text-4xl">
-            Set up once, in this order
+            اضبطه مرة واحدة، بهذا الترتيب
           </h2>
           <p className="mt-4 text-secondary-foreground/70">
-            Most teams are running their first flow the same afternoon they sign up.
+            تبدأ معظم الفرق أول تدفق لها في نفس بعد الظهر الذي تُسجل فيه.
           </p>
         </motion.div>
 

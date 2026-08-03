@@ -5,21 +5,21 @@ import { Card, CardContent, CardDescription, CardTitle } from "@/components/ui/c
 const features = [
   {
     icon: Layers,
-    title: "One board, every context",
+    title: "لوحة واحدة، كل السياق",
     description:
-      "Tasks from email, chat, and forms land in a single board, tagged and assigned automatically.",
+      "تصل المهام من البريد الإلكتروني والدردشة والنماذج إلى لوحة واحدة، موسومة ومُسندة تلقائيًا.",
   },
   {
     icon: GitBranch,
-    title: "Hand-offs that don't drop",
+    title: "تسليمات لا تتعثر",
     description:
-      "Every hand-off carries its own checklist, so the next person always knows what 'done' means.",
+      "يحمل كل تسليم قائمة تحقق خاصة به، لذلك يعرف الشخص التالي ما يعنيه «تم» بالضبط.",
   },
   {
     icon: Bell,
-    title: "Quiet by default",
+    title: "هادئ بشكل افتراضي",
     description:
-      "Flowly nudges only the person who's blocked, on the channel they actually check.",
+      "يُنبه Flowly فقط الشخص المعطل في القناة التي يراجعها فعليًا.",
   },
 ];
 
@@ -36,10 +36,10 @@ export default function Features() {
           className="mx-auto max-w-xl text-center"
         >
           <h2 className="font-display text-3xl font-semibold tracking-tight md:text-4xl">
-            Less coordination. More work getting done.
+            قليل من التنسيق. المزيد من الإنجاز.
           </h2>
           <p className="mt-4 text-muted-foreground">
-            Flowly replaces the daily "where are we on this?" with a system that already knows.
+            يستبدل Flowly السؤال اليومي «أين نحن في هذا؟» بنظام يعرف الإجابة بالفعل.
           </p>
         </motion.div>
 

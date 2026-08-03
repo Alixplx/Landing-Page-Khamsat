@@ -4,9 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 
 const cards = [
-  { label: "Design review", tag: "Design", x: 0, y: 0, delay: 0 },
-  { label: "Client hand-off", tag: "Delivery", x: 1, y: 1, delay: 0.15 },
-  { label: "Sprint planning", tag: "Product", x: 0, y: 2, delay: 0.3 },
+  { label: "مراجعة التصميم", tag: "التصميم", x: 0, y: 0, delay: 0 },
+  { label: "تسليم العميل", tag: "التسليم", x: 1, y: 1, delay: 0.15 },
+  { label: "تخطيط السبرنت", tag: "المنتج", x: 0, y: 2, delay: 0.3 },
 ];
 
 export default function Hero() {
@@ -24,34 +24,34 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, ease: "easeOut" }}
         >
-          <Badge className="mb-6">Built for teams of 3–30</Badge>
+          <Badge className="mb-6">مناسب لفرق من 3 إلى 30</Badge>
 
           <h1 className="font-display text-4xl font-semibold leading-[1.1] tracking-tight md:text-6xl">
-            One flow for
+            تدفق واحد لـ
             <br />
-            how your team
+            كيف يعمل فريقك
             <br />
-            <span className="text-primary">actually</span> works.
+            <span className="text-primary">بالفعل</span>.
           </h1>
 
           <p className="mt-6 max-w-md text-lg leading-relaxed text-muted-foreground">
-            Flowly gathers every task, hand-off, and approval scattered across chats and
-            spreadsheets into a single calm line of work — so nothing waits on a status update.
+            يجمع Flowly كل مهمة وتسليم وموافقة منتشرة عبر المحادثات وجداول البيانات في سطر عمل
+            هادئ واحد — حتى لا يمر شيء في انتظار تحديث الحالة.
           </p>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <Button size="lg">
-              Start free trial
+              ابدأ التجربة المجانية
               <ArrowRight className="ml-1 h-4 w-4" />
             </Button>
             <Button size="lg" variant="outline">
-              Watch a 2-min demo
+              شاهد عرضًا لمدة دقيقتين
             </Button>
           </div>
 
           <div className="mt-8 flex items-center gap-2 text-sm text-muted-foreground">
             <CheckCircle2 className="h-4 w-4 text-primary" />
-            No credit card required · Cancel anytime
+            لا توجد بطاقة ائتمان · يمكنك الإلغاء في أي وقت
           </div>
         </motion.div>
 

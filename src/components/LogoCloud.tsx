@@ -5,7 +5,7 @@ export default function LogoCloud() {
     <section className="border-y border-border py-10">
       <div className="container">
         <p className="text-center text-xs uppercase tracking-[0.2em] text-muted-foreground">
-          Trusted by focused teams at
+          موثوق به من قبل فرق متخصصة في
         </p>
         <div className="mt-6 flex flex-wrap items-center justify-center gap-x-12 gap-y-4">
           {logos.map((logo) => (

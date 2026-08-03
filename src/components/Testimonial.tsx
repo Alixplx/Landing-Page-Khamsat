@@ -14,12 +14,11 @@ export default function Testimonial() {
         >
           <Quote className="mx-auto h-8 w-8 text-primary" />
           <p className="mt-6 font-display text-2xl font-medium leading-snug md:text-3xl">
-            We cut our stand-up time in half and stopped losing hand-offs between design and
-            engineering entirely.
+            قللنا وقت الاجتماع نصفًا وتوقفنا عن فقدان عمليات التسليم بين التصميم والهندسة تمامًا.
           </p>
           <div className="mt-6">
-            <p className="font-medium">Mira Haddad</p>
-            <p className="text-sm text-muted-foreground">Head of Product, Ferro Labs</p>
+            <p className="font-medium">ميرا حداد</p>
+            <p className="text-sm text-muted-foreground">رئيسة المنتج، شركة فيرو لابز</p>
           </div>
         </motion.div>
       </div>

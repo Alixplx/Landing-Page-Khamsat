@@ -19,10 +19,10 @@ export default function CTA() {
           />
           <div className="relative">
             <h2 className="font-display text-3xl font-semibold tracking-tight md:text-4xl">
-              Give your team back its afternoons.
+              أعد لأعمال فريقك ساعات بعد الظهر.
             </h2>
             <p className="mx-auto mt-4 max-w-md text-secondary-foreground/70">
-              Join 400+ teams running their day-to-day through one calm flow.
+              انضم إلى أكثر من 400 فريق يعملون يوميًا من خلال تدفق واحد هادئ.
             </p>
 
             <form
@@ -32,11 +32,11 @@ export default function CTA() {
               <Input
                 type="email"
                 required
-                placeholder="you@company.com"
+                placeholder="أنت@شركتك.com"
                 className="bg-background text-foreground"
               />
               <Button type="submit" size="lg" className="shrink-0">
-                Start free trial
+                ابدأ التجربة المجانية
               </Button>
             </form>
           </div>

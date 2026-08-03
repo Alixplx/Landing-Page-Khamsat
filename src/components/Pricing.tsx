@@ -5,27 +5,27 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const plans = [
   {
-    name: "Starter",
-    price: "$0",
-    period: "forever",
-    description: "For small teams trying Flowly out.",
-    features: ["Up to 3 members", "1 workflow", "7-day history"],
+    name: "مبتدئ",
+    price: "0$",
+    period: "دائمًا",
+    description: "للفرق الصغيرة التي تريد تجربة Flowly.",
+    features: ["حتى 3 أعضاء", "مخطط عمل واحد", "سجل لمدة 7 أيام"],
     highlighted: false,
   },
   {
-    name: "Team",
-    price: "$18",
-    period: "per member / month",
-    description: "For teams ready to run everything through Flowly.",
-    features: ["Unlimited members", "Unlimited workflows", "Full history & audit log", "Priority support"],
+    name: "فريق",
+    price: "18$",
+    period: "لكل عضو / شهر",
+    description: "للفرق الجاهزة لإدارة كل شيء عبر Flowly.",
+    features: ["أعضاء غير محدودين", "تدفقات غير محدودة", "سجل كامل وسجل تدقيق", "دعم أولوية"],
     highlighted: true,
   },
   {
-    name: "Scale",
-    price: "Let's talk",
-    period: "custom",
-    description: "For organizations with security or SSO needs.",
-    features: ["SSO & SCIM", "Dedicated success manager", "Custom data retention"],
+    name: "قياسي",
+    price: "دعنا نتحدث",
+    period: "مخصص",
+    description: "للمنظمات التي تحتاج إلى أمان أو SSO.",
+    features: ["SSO & SCIM", "مدير نجاح مخصص", "الاحتفاظ المخصص للبيانات"],
     highlighted: false,
   },
 ];
@@ -42,10 +42,10 @@ export default function Pricing() {
           className="mx-auto max-w-xl text-center"
         >
           <h2 className="font-display text-3xl font-semibold tracking-tight md:text-4xl">
-            Simple pricing, no surprises
+            تسعير بسيط، بدون مفاجآت
           </h2>
           <p className="mt-4 text-muted-foreground">
-            Start free. Upgrade only when your team outgrows it.
+            ابدأ مجانًا. قم بالترقية فقط عندما تتوسع فريقك.
           </p>
         </motion.div>
 
@@ -85,7 +85,7 @@ export default function Pricing() {
                     className="mt-8 w-full"
                     variant={plan.highlighted ? "default" : "outline"}
                   >
-                    {plan.name === "Scale" ? "Contact sales" : "Get started"}
+                    {plan.name === "قياسي" ? "تواصل مع المبيعات" : "ابدأ الآن"}
                   </Button>
                 </CardContent>
               </Card>

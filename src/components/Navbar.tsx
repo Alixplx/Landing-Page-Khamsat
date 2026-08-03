@@ -4,10 +4,10 @@ import { Menu, X, Workflow } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const links = [
-  { href: "#features", label: "Features" },
-  { href: "#how-it-works", label: "How it works" },
-  { href: "#pricing", label: "Pricing" },
-  { href: "#faq", label: "FAQ" },
+  { href: "#features", label: "المزايا" },
+  { href: "#how-it-works", label: "كيف يعمل" },
+  { href: "#pricing", label: "التسعير" },
+  { href: "#faq", label: "الأسئلة الشائعة" },
 ];
 
 export default function Navbar() {
@@ -52,9 +52,9 @@ export default function Navbar() {
 
         <div className="hidden md:flex items-center gap-3">
           <Button variant="ghost" size="sm">
-            Log in
+            تسجيل الدخول
           </Button>
-          <Button size="sm">Start free trial</Button>
+          <Button size="sm">ابدأ التجربة المجانية</Button>
         </div>
 
         <button
@@ -86,10 +86,10 @@ export default function Navbar() {
             ))}
             <div className="flex flex-col gap-2 pt-2">
               <Button variant="outline" size="sm" className="w-full">
-                Log in
+                تسجيل الدخول
               </Button>
               <Button size="sm" className="w-full">
-                Start free trial
+                ابدأ التجربة المجانية
               </Button>
             </div>
           </div>
